@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+.quicksand {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* shared stylex */
+.display-flex {
+  display: flex;
+}
+/* calor style */
+.calor-orange {
+  color: orange;
+}
+.calor-skyboue {
+  color: skyblue;
+}
+.calor-pest {
+  color: #05d4df;
+}
+.calor-last {
+  color: #5d58ef;
+}
+.black {
+  color: black;
+}
+/* navbar style */
+
+.navbar {
+  width: 1160px;
+  height: 102px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.nav-item {
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+}
+.btn-1 {
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 197px;
+  height: 50px;
+}
+.btn-2 {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 197px;
+  height: 50px;
+}
+.school {
+  font-size: 32px;
+  font-weight: bold;
+}
+.logo {
+  height: 60px;
+  margin-top: 15px;
+}
+.nav-link {
+  font-weight: 500px;
+}
+/* banner style */
+.parent {
+  width: 1158px;
+  height: 575px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.banner {
+  width: 640px;
+  height: 330px;
+  margin-top: 77px;
+}
+.hading {
+  font-size: 56px;
+  font-weight: 700;
+}
+.pragraph {
+  font-size: 20px;
+  color: black;
+}
