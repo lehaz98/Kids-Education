@@ -128,6 +128,9 @@
   height: 575px;
   justify-content: center;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .banner {
   width: 640px;
@@ -345,4 +348,54 @@
 }
 .keep-main {
   margin-top: 120px;
+}
+/* mobaile responsive */
+@media screen and (max-width: 576px) {
+  .nav-links {
+    display: none;
+  }
+  .school {
+    display: none;
+  }
+  .parent {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-top: 220px;
+  }
+  .card-section {
+    flex-direction: column;
+    margin-top: 350px;
+  }
+  .card-main {
+    flex-direction: column;
+    margin-top: 600px;
+  }
+  .our-storis {
+    margin-top: 850px;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-1 {
+    width: 100%;
+  }
+  .card-2 {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .card-3 {
+    width: 100%;
+  }
+  .first-story-1 {
+    display: none;
+  }
+  .second-stories {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .mini-div {
+    width: 100%;
+  }
+  .img-last {
+    width: 100%;
+  }
 }
